@@ -1,0 +1,33 @@
+/* body {
+    margin-left: 2in;
+    background-color: lightblue
+  }
+  #fight {
+    display:none;
+  }
+  #comeback {
+    display:none;
+  }
+  #run {
+    display:none;
+  }
+  #box{
+    margin-left: 6.5in;
+    margin-right: 2in;
+    background-color: #00ffa1;
+    padding: 25px;
+    width: 450px;
+    font-size: 40px
+  }
+  p{
+    font-size: 40px;
+  } */
+
+  body{
+     background-color: darkolivegreen;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
