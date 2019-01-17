@@ -31,3 +31,21 @@
     margin-left: auto;
     margin-right: auto;
   }
+#result1 {
+    display: none;
+}
+#result2 {
+    display: none;
+}
+#result3 {
+    display: none;
+}
+#result4 {
+    display: none;
+}
+#result5 {
+  display: none;
+}
+#result6 {
+  display: none;
+}
