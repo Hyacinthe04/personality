@@ -1,28 +1,3 @@
-`<!-- <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="script.js"></script>
-</head>
-<body>
-<center><font color="red"><h1>Find out your personality with the question below!</h1></font>
-  <h3>How would you react if someone insulted you?</h3></center>
-  <div id="box">
-<input type="radio" name="reaction" value="fight" id="a">
-Fight back<br>
-<input type="radio" name="reaction" value="comeback" id="b">
-Have a witty comeback<br>
-<input type="radio" name="reaction" value="run" id="c">
-Run away<br><br>
-<button onclick="myFunction()">find out your personality</button>
-</div>
-<center><p id="fight">
-  You have an aggressive personality. You blow up very quickly and this causes violent outbursts.</p>
-<p id="comeback">
-  You have a comical personality. You always have a joke to tell, and you can easily leave haters speechless.</p>
-<p id="run">
-  You have a cowardly personality. You have a hard time handling tough situations.</p></center>
-</body> -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,12 +9,40 @@ Run away<br><br>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body id="body1">
   <div class="container">
     <div class="jumbotron">
-        <img src="https://www.tectonic.works/wp-content/uploads/2017/09/personality.png" width="200px" height="200px" class="center">
+        <img src="./images/bluedots.png" height="400px" class="center">
     </div>
+  
+     <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#PersonalityTest">Big Five Personality</a></li>
+          <!-- <li><a href="#careerGuidance">Career assesment</a></li> -->
+          
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="index2.html">Career assesment</a></li>
+        </ul>
+      </nav>  
 
+
+  <div id="home">
+    <div class="row">
+      <div class ="col-sm-12">
+        <p>
+          Sometimes your peer's (friends, colleagues, spouses ...)behaviour leaves you puzzled. you wonder why your best friend keeps things from you. You wonder why that colleague of yours avoids others in cafeteria lunch break.
+          The thing is, prople are different when it comes to personality. Many researches have been done about different types of personality types.
+          On our page we will deal with the six types of personality from <strong>The big five personality theory.</strong>
+        </p>
+      </div>
+    </div> 
+  </div>
+  
+
+<div id ="PersonalityTest">
     <form class="form-inline" id="options">
      
           
@@ -172,12 +175,105 @@ Run away<br><br>
             </div>
             <br>
 
+            <div class="form-control "><p id="question7">7. choose one option that suits you best</p></div>
+
+            <div class="q-one-radio1">
+              <label><input type="radio" name="Q6" value="O">a. I do not like routines.</label>
+            </div>
+            <div class="q-one-radio2">
+              <label><input type="radio" name="Q6" value="E">b. You usually get to work late because you meet a lot of aquaintances in the hallway.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q6" value="C">c.You are good at sticking to the plan</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q6" value="N">d.You get easily stressed.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q6" value="A">e.Male:You are considered a good dancer by women./Female: You are mostly a happy lady</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q6" value="I">f.When annoyed you take a walk</label>
+            </div>
+            <br>
+
+            <div class="form-control "> <p id="question8">8. choose one option that suits you best?</p></div>
+
+            <div class="q-one-radio1">
+              <label><input type="radio" name="Q7" value="I">a. You prefer small groups activities </label>
+            </div>
+            <div class="q-one-radio2">
+              <label><input type="radio" name="Q7" value="E">b. You usually feel the need to speak your feelings out</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q7" value="C">c. When travelling you need time to pack early enough.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q7" value="N">d.You hardly enjoy your successes, because you are not sure what might happen just after.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q7" value="A">e.You are not jealous of other people's success</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q7" value="O">f. I enjoy hearing new ideas."</label>
+            </div>
+            <br>
+ 
+
+
+             <div class="form-control "><p id="question9">9. choose one option that suits you best?</p></div>
+
+            <div class="q-one-radio1">
+              <label><input type="radio" name="Q8" value="I">a. You prefer small groups activities </label>
+            </div>
+            <div class="q-one-radio2">
+              <label><input type="radio" name="Q8" value="E">b. You usually feel the need to speak your feelings out</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q8" value="C">c. When travelling you need time to pack early enough.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q8" value="N">d.You hardly enjoy your successes, because you are not sure what might happen just after.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q8" value="A">e.You are not jealous of other people's success</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q8" value="O">f. I enjoy hearing new ideas."</label>
+            </div>
+            <br>
+
+
+            <div class="form-control "> <p id="question10">10. choose one option that suits you best?</p></div>
+
+            <div class="q-one-radio1">
+              <label><input type="radio" name="Q9" value="I">a. You prefer small groups activities </label>
+            </div>
+            <div class="q-one-radio2">
+              <label><input type="radio" name="Q9" value="E">b. You usually feel the need to speak your feelings out</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q9" value="C">c. When travelling you need time to pack early enough.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q9" value="N">d.You hardly enjoy your successes, because you are not sure what might happen just after.</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q9" value="A">e.You are not jealous of other people's success</label>
+            </div>
+            <div class="q-one-radio3">
+              <label><input type="radio" name="Q9" value="O">f. I enjoy hearing new ideas."</label>
+            </div>
+            <br>  
+
+
+
           <input  id="button" type="submit" value="Send">
 
       </form>
    
    
-    
+    </div>
   </div>
 </body>
 </html>
