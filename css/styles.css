@@ -1,0 +1,50 @@
+
+.jumbotron{
+  width:auto;
+  background-color: rgb(223, 229, 231);
+}
+.jumbotron>img{
+  width:100%;
+}
+#body1{
+  background-color: rgb(150, 178, 187);
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  
+} 
+#home{
+  background-color:  rgb(172, 179, 182);
+
+  border: 1px;
+  border-radius: 3px;
+  box-shadow: 5px,4px,4px, #232236;
+  color: black;
+  margin:15px;
+  opacity: 0.7;
+}
+nav li{
+  display:inline-block;
+  padding: 10px;
+  text-align: center;
+}
+li{
+  background-color:rgb(172, 179, 182);
+  
+}
+select{
+  background-color:rgb(172, 179, 182); 
+
+}
+option{
+  border:0px rgb(172, 179, 182); 
+}
+a:visited{
+  color:blue;
+}
+nav{
+  width:100%;
+}
+
